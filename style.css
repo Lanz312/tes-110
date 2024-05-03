@@ -4,51 +4,7 @@ body, html {
     height: 100%;
 }
 
-.search-page {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-}
-
-.search-bar {
-    display: flex;
-    align-items: center;
-    background-color: white;
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.search-bar img {
-    height: 40px;
-    margin-right: 10px;
-}
-
-.search-bar input {
-    flex: 1;
-    border: none;
-    outline: none;
-    font-size: 16px;
-    padding: 8px;
-    border-radius: 5px;
-}
-
-.search-bar button {
-    background-color: #1a73e8;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.search-bar button:hover {
-    background-color: #0d47a1;
-}
-
+/* wp */
 .video-container {
     position: fixed;
     top: 0;
@@ -58,6 +14,7 @@ body, html {
     overflow: hidden;
     z-index: -1;
 }
+/* wp end */
 
 #video-background {
     width: 100%;
