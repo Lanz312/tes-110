@@ -1,83 +1,83 @@
 body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 /* wp */
 .video-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
 }
 /* wp end */
 
 #video-background {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Navbar */
 .transparent-navbar {
-    background-color: rgba(109, 107, 107, 0.4); /* Warna navbar dengan transparansi */
-    backdrop-filter: blur(px); /* Efek blur untuk membuat tampilan tembus pandang */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 0;
-    z-index: 1000; /* Pastikan navbar tetap berada di atas konten lain */
-  }
-  
-  .transparent-navbar ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .transparent-navbar li {
-    margin:  15px;
-    background-color: rgba(116, 112, 112, 0.4);
-    border-radius: 8px;
-    font-size: 20px;
-    width: 100px;
-    height: 30px;
-  }
-  
-  .transparent-navbar a {
-    text-decoration: none;
-    color: rgb(224, 222, 222);
-    font-weight:0 ;
-    transition: color 0.3s ease;
-  }
-  
-  .a-menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  background-color: rgba(109, 107, 107, 0.4); /* Warna navbar dengan transparansi */
+  backdrop-filter: blur(px); /* Efek blur untuk membuat tampilan tembus pandang */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1%;
+  z-index: 1000; /* Pastikan navbar tetap berada di atas konten lain */
+}
 
-  .transparent-navbar a:hover {
-    color: black;
-  }
-  
-  .transparent-navbar li:hover {
-    background-color: rgba(233, 125, 37, 0.6);
-  }
+.transparent-navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.transparent-navbar li {
+  margin:  15px;
+  background-color: rgba(116, 112, 112, 0.4);
+  border-radius: 10%;
+  font-size: 150%;
+  width: 100%;
+  height: 30%;
+}
+
+.transparent-navbar a {
+  text-decoration: none;
+  color: rgb(224, 222, 222);
+  font-weight:0 ;
+  transition: color 0.3s ease;
+}
+
+.a-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transparent-navbar a:hover {
+  color: black;
+}
+
+.transparent-navbar li:hover {
+  background-color: rgba(233, 125, 37, 0.6);
+}
 /* mavbar end */
 
 /* audio */
-.div-audio {
-    display: flex;
-    justify-content: center;
-    padding: 120px;
-}
+/* .div-audio {
+  display: flex;
+  justify-content: center;
+  padding: 120%;
+} */
 
 /* audio end */
