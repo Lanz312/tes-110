@@ -43,12 +43,11 @@ body, html {
 }
 
 .transparent-navbar li {
-  margin:  15px;
+  margin: 1%;
   background-color: rgba(116, 112, 112, 0.4);
   border-radius: 10%;
   font-size: 150%;
   width: 10%;
-  height: 30%;
 }
 
 .transparent-navbar a {
@@ -56,6 +55,7 @@ body, html {
   color: rgb(224, 222, 222);
   font-weight:0 ;
   transition: color 0.3s ease;
+  width: 90%;;
 }
 
 .a-menu {
