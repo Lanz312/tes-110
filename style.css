@@ -47,8 +47,8 @@ body, html {
   background-color: rgba(116, 112, 112, 0.4);
   border-radius: 10%;
   font-size: 150%;
-  width: 20%;
-  height: 20%;
+  width: 100%;
+  height: 100%;
 }
 
 .transparent-navbar a {
