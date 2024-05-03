@@ -1,0 +1,126 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.search-page {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+    background-color: #0d47a1;
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Navbar */
+.transparent-navbar {
+    background-color: rgba(109, 107, 107, 0.4); /* Warna navbar dengan transparansi */
+    backdrop-filter: blur(px); /* Efek blur untuk membuat tampilan tembus pandang */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 1000; /* Pastikan navbar tetap berada di atas konten lain */
+  }
+  
+  .transparent-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .transparent-navbar li {
+    margin:  15px;
+    background-color: rgba(116, 112, 112, 0.4);
+    border-radius: 8px;
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+  }
+  
+  .transparent-navbar a {
+    text-decoration: none;
+    color: rgb(224, 222, 222);
+    font-weight:0 ;
+    transition: color 0.3s ease;
+  }
+  
+  .a-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .transparent-navbar a:hover {
+    color: black;
+  }
+  
+  .transparent-navbar li:hover {
+    background-color: rgba(233, 125, 37, 0.6);
+  }
+/* mavbar end */
+
+/* audio */
+.div-audio {
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+}
+
+/* audio end */
