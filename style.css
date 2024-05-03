@@ -13,6 +13,7 @@ body, html {
   height: 100%;
   overflow: hidden;
   z-index: 1000;
+  height: 80vh;
 }
 /* wp end */
 
@@ -20,6 +21,7 @@ body, html {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  height: 20vh;
 }
 
 /* Navbar */
@@ -32,6 +34,7 @@ body, html {
   width: 100%;
   padding: 1%;
   z-index: 1000; /* Pastikan navbar tetap berada di atas konten lain */
+  height: 20vh;
 }
 
 .transparent-navbar ul {
